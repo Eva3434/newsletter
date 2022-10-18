@@ -19,9 +19,8 @@ section {
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
-    border-bottom: 3px solid rgb(199, 196, 196);
-    margin-left: 50px ;
-    margin-right: 50px;
+    margin-bottom: 5px;
+    
 }
 div {
     margin: 40px;
@@ -40,6 +39,9 @@ input {
 }
 section img {
     opacity: 0.5;  
+    border-bottom: 3px solid rgb(199, 196, 196);
+    padding-right: 450px;
+    padding-left: 450px;   
 }
 button {
     background-color: white;
@@ -58,12 +60,11 @@ button {
   'FILL' 0
   'wght' 600,
   'GRAD' 0,
-  'opsz' 48,
- 
+  'opsz' 48, 
 }
 span {
     text-shadow: 2px 2px 4px grey;
     color: grey;
     display: flex;
-    justify-content:right;
+    justify-content: right;
 }
